@@ -1,3 +1,7 @@
-require "optparse"
-require "cpf"
-require "cnpj"
+require 'optparse'
+require 'cpf'
+require 'cnpj'
+
+# ActiveModel validators
+require 'cpf/validator'
+require 'cnpj/validator'
